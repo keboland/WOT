@@ -1,0 +1,31 @@
+{
+  "name": "wot-pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wot-pi.js",
+
+  "scripts": 
+  {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": 
+  {
+    "bl": "^1.0.0",
+    "body-parser": "^1.13.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "msgpack5": "^3.3.0",
+    "node-json2html": "^1.0.0"
+  },
+
+  "optionalDependencies":
+  {
+    "onoff": "^1.0.4",
+    "node-dht-sensor": "^0.0.8"
+  }
+}

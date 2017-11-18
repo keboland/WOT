@@ -1,0 +1,2 @@
+ var resources = require('./resources.json');
+ module.exports = resources;					//Loads the JSON model of our Pi from the Resources.json file and exports will make this object available as a mode module that you can use in your application
